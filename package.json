@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^15.12.2",
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "hex-rgb": "^5.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "toggl-api": "^1.0.1"
+  },
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  }
+}
