@@ -10,6 +10,6 @@
     "toggl-api": "^1.0.1"
   },
   "scripts": {
-    "start": "ts-node ./index.ts"
+    "start": "ts-node ./src/index.ts"
   }
 }
