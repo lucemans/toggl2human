@@ -39,7 +39,7 @@ const getMinHourNotation = (timeInSeconds: number) => ((
         Math.ceil(Math.ceil(timeInSeconds / 60) % 60) + 'm' : '')
 ))
 
-const day = moment().subtract(2, 'days');
+const day = moment().subtract(1, 'days');
 
 console.log('Generating timesheets for ' + chalk.red(day.toLocaleString()));
 
